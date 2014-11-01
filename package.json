@@ -1,0 +1,24 @@
+{
+  "name": "heroku-test",
+  "version": "0.0.1",
+  "description": "App using Heroku and Node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PabloValor/heroku-test.git"
+  },
+  "author": "Pablo Valor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PabloValor/heroku-test/issues"
+  },
+  "homepage": "https://github.com/PabloValor/heroku-test",
+  "dependencies": {
+    "express": "^4.10.1",
+    "swig": "^1.4.2"
+  }
+}
