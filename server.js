@@ -8,7 +8,7 @@ app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
-app.use('/public/bower_components', express.static(__dirname + '/public/bower_components')); // !set bower path
+
 
 app.use(express.static(__dirname + '/public')); // assets (css/js/img)
 
