@@ -19,9 +19,10 @@
   "homepage": "https://github.com/PabloValor/heroku-test",
   "dependencies": {
     "express": "^4.10.1",
+    "gulp": "^3.8.9",
     "swig": "^1.4.2"
   },
-    "engines": {
+  "engines": {
     "node": "0.10.x"
   }
 }
