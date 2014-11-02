@@ -9,6 +9,5 @@ node_modules
 /test/reports
 /test/tmp/
 
-/bower.json
+bower.json
 public/component.json
-public/bower_components
