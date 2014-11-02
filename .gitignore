@@ -1,1 +1,14 @@
 node_modules
+
+
+
+/npm-debug.log
+
+/test/assets/package-*/
+/test/assets/temp-*/
+/test/reports
+/test/tmp/
+
+/bower.json
+public/component.json
+public/bower_components
