@@ -10,7 +10,8 @@ app.set('views', __dirname + '/views');
 
 
 
-app.use(express.static(__dirname + '/public')); // assets (css/js/img)
+app.use('/public', express.static(__dirname + '/public')); // assets (css/js/img)
+
 
 app.get('/', function(req, res) {
 
